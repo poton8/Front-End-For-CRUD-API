@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRUD UI</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload = "read()">
+        <header>
+            <h1>Welcome to the CRUD UI</h1>
+        </header>
+        <main>
+            <div class = "employeeList">
+                <h2>List of employees</h2>
+                <p id = "employees"></p>
+            </div>
+
+            <h2>Query for employee</h2>
+            <input type="text" id = "queryID"></input>
+            <button type="button" onclick = "query()">Enter</button>
+             <p id = "queryEmployee"></p>
+
+             <h2>Create new employee</h2>
+             <input type="text" id = "newEmployee"></input>
+             <button type="button" onclick = "create()">Enter</button>
+
+             <h2>Update Employee name</h2>
+             <input type="text" id = "updateID"></input>
+             <input type="text" id = "updateEmployeeName"></input>
+             <button type="button" onclick = "update()">Enter</button>
+
+             <h2>Delete Employee</h2>
+             <input type="text" id = "deleteID"></input>
+             <button type="button" onclick = "remove()">Enter</button>
+        </main>
+        <script type="text/javascript" src="fetch.js"></script>
+    </body>
+</html>
