@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/poton8/Front-End-For-CRUD-API#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fetch": "^1.1.0",
     "node-fetch": "^2.6.0"
   }
